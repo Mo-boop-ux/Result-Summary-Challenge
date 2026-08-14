@@ -24,6 +24,7 @@ main{
     overflow: hidden;
     background: #fff;
     width: 630px;
+    min-height: 450px;
 }
 
 .result-card{
@@ -32,9 +33,9 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     background: linear-gradient(hsl(252, 100%, 67%) , hsl(241, 81%, 54%) );
     border-radius: 20px;
-    gap: 20px;
 }
 
 .result-card h3{ 
@@ -90,7 +91,6 @@ main{
 }
 
 .circle-shape{
-    margin-top: 30px;
     background: linear-gradient( hsla(256, 72%, 46%, 1) ,hsla(241, 72%, 46%, 0));
     border-radius: 50%;
     width: 150px;
@@ -109,7 +109,7 @@ main{
 
 .circle-shape .from-hundred{
     font-size: 16px;
-    color: hsl(241, 100%, 89%);
+    color: hsl(241, 100%, 89% , 0.5);
 }
 
 .summary-card a:visited , .summary-card a:link{
